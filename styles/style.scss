@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+
+$veryDarkBlue: hsl(233, 47%, 7%);
+$darkDesaturatedBlue: hsl(244, 38%, 16%);
+$softViolet: hsl(277, 64%, 61%);
+$mainParagraphColor: hsla(0, 0%, 100%, 0.75);
+$statsHeadings: hsla(0, 0%, 100%, 0.6);
+$white: hsl(0, 0%, 100%);
+$inter: 'Inter', sans-serif;
+$lexendDeca: 'Lexend Deca', sans-serif;;
+
+
+body {
+    background-color: $veryDarkBlue;
+}
+
+main {
+    display: flex;
+}
+
+.card {
+    background-color: $darkDesaturatedBlue;
+    min-width: 25%;
+    max-width: 33%;
+    
+
+    h1 {
+        color: $white;
+        font-family: $inter;
+        font-size: 2rem;
+
+        strong {
+            color: $softViolet;
+        }
+    }
+    
+    p {
+        color: $mainParagraphColor;
+        font-family: $inter;
+        font-size: 0.7rem;
+    }
+}
+
+.stats {
+    color: $white;
+    text-transform: uppercase;
+    font-family: $lexendDeca;
+    text-align: center;
+    font-size: 0.7rem;
+
+    strong {
+        font-weight: 700;
+        font-size: 1rem;
+    }
+}
+
+img {
+    filter: sepia($softViolet);
+}

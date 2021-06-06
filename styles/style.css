@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+body {
+  background-color: #090b1a;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card {
+  background-color: #1b1938;
+  min-width: 25%;
+  max-width: 33%;
+}
+
+.card h1 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+
+.card h1 strong {
+  color: #aa5cdb;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+}
+
+.stats {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.stats strong {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+img {
+  -webkit-filter: sepia(#aa5cdb);
+          filter: sepia(#aa5cdb);
+}
+/*# sourceMappingURL=style.css.map */
